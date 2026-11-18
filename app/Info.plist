@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.local.rumblebar</string>
+    <key>CFBundleName</key>
+    <string>RumbleBar</string>
+    <key>CFBundleDisplayName</key>
+    <string>RumbleBar</string>
+    <key>CFBundleExecutable</key>
+    <string>RumbleBar</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleVersion</key>
+    <string>0.1.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.1.0</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>RumbleBar records your voice while dictation is active and transcribes it locally.</string>
+    <!-- Filled in by build.sh with paths on this machine. -->
+    <key>RumbleBarPython</key>
+    <string></string>
+    <key>RumbleBarServerScript</key>
+    <string></string>
+    <key>RumbleBarPort</key>
+    <integer>8765</integer>
+</dict>
+</plist>

@@ -1,0 +1,12 @@
+[project]
+name = "reson8-stt-server"
+version = "0.1.0"
+description = "Local STT sidecar for Reson8 Rumble-2-Flash"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "torch>=2.6",
+    "transformers>=5.0",
+    "accelerate",
+    "numpy",
+    "huggingface_hub[hf_xet]",
+]
